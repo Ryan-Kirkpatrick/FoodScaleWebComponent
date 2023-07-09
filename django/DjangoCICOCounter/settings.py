@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjangoScale.urls'
+ROOT_URLCONF = 'DjangoCICOCounter.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjangoScale.wsgi.application'
+WSGI_APPLICATION = 'DjangoCICOCounter.wsgi.application'
 
 
 # Database

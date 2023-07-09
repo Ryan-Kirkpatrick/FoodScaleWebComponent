@@ -1,8 +1,9 @@
 .vscode
 .history
-django/venv
-django/DjangoScale/db.sqlite3
-django/DjangoScale/clearDB
-django/DjangoScale/updateModels
-django/DjangoScale/CICOCounter/__pycache__/
-django/DjangoScale/DjangoScale/__pycache__/
+env/
+venv/
+django/db.sqlite3
+django/clearDB
+django/updateModels
+django/CICOCounter/__pycache__/
+django/DjangoCICOCounter/__pycache__/
