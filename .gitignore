@@ -1,0 +1,8 @@
+.vscode
+.history
+django/venv
+django/DjangoScale/db.sqlite3
+django/DjangoScale/clearDB
+django/DjangoScale/updateModels
+django/DjangoScale/CICOCounter/__pycache__/
+django/DjangoScale/DjangoScale/__pycache__/
