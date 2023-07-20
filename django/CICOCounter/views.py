@@ -99,6 +99,13 @@ def getConsumptionById(request: Request, id: int):
 
 
 @api_view(["GET"])
+def getFavoriteById(request: Request, id: int):
+    favorite = get_object_or_404(Favorite, id=id)
+    data = serializers.serialize("json", [favorite])
+    return HttpResponse(data)
+
+
+@api_view(["GET"])
 def getTime(request: Request):
     data = f'{{"time": {time.time()}}}'
     return HttpResponse(data)

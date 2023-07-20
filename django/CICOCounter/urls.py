@@ -13,4 +13,5 @@ urlpatterns = [
     path("api/time/", views.getTime),
     path("api/consumption/id/<int:id>", views.getConsumptionById),
     path("api/consumption/datetime/", views.getConsumptionByTime),
+    path("api/favorite/id/<int:id>", views.getFavoriteById),
 ]
